@@ -1,0 +1,94 @@
+.about {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: solid .1rem $color-secondary-1-2;
+  font-size: .75rem;
+
+  .logo-block {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .stack ul {
+    padding: 0 .15rem;
+  }
+
+  .stack li {
+    display: inline-block;
+    padding: .15rem;
+    &:before {
+      content: "-";
+    }
+  }
+
+  .links {
+    margin: 0 auto;
+    width: 50%;
+
+    a {
+      font-size: 1rem;
+    }
+
+    .email, .twitter {
+      color: $color-secondary-1-2;
+    }
+
+    .blog, .github {
+      color: $color-secondary-1-3;
+    }
+    // a {
+    //   font-size: 1rem;
+    //   color: black;
+    //
+    //   &:visited {
+    //     color: black;
+    //   }
+    // }
+
+    .fa {
+      padding: 5.5%;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media (min-width: 500px) {
+  .about {
+    display: inline-block;
+    width: 25%;
+    margin: auto 2.5%;
+    padding-top: 0.5rem;
+    float: left;
+    border: none;
+
+    .logo-block {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .stack ul {
+      padding: 0 .15rem;
+    }
+
+    .stack li {
+      display: inline-block;
+      padding: .15rem;
+      &:before {
+        content: "-";
+      }
+    }
+
+    .links {
+      margin: 0 auto;
+      width: auto;
+      padding-left: 2vw;
+
+      .fa {
+        padding: 5.5%;
+      }
+    }
+
+  }
+
+}

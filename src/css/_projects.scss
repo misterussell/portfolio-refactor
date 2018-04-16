@@ -1,0 +1,66 @@
+.all-projects {
+  width: 80%;
+  margin: 0 auto;
+
+  .project-title {
+    margin: .25rem 0;
+    text-align: center;
+  }
+  .single-project {
+    position: relative;
+    box-sizing: border-box;
+    padding: .5rem;
+    margin: .25rem 0;
+
+    .project-details {
+      padding: 1rem;
+    }
+
+  }
+
+  .about-project {
+    margin: 0;
+  }
+
+  .challenges {
+    margin-bottom: 0;
+  }
+  .name {
+    display: inline;
+    position: absolute;
+    margin: 0;
+    top: 1rem;
+    left: 1.5rem;
+    font-size: 2rem;
+    color: $color-primary-4;
+  }
+
+}
+
+@media (min-width: 500px) {
+  .all-projects {
+    display: inline-block;
+    width: 70%;
+    box-sizing: border-box;
+    padding-right: 1rem;
+
+    .text-floater {
+      float: left;
+    }
+
+    .project-title {
+      display: none;
+    }
+
+    .tools-title {
+      margin-bottom: .15rem;
+    }
+
+    .tools {
+      margin: .15rem 0;
+      padding: 0 .25rem;
+      list-style: none;
+    }
+
+  }
+}
