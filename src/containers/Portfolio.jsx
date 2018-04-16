@@ -16,7 +16,8 @@ const Portfolio = () => (
           background={project.background}
           about={project.about}
           tools={project.tools}
-          challenges={project.challenges}
+          challenges={project.challenge}
+          url={project.url}
         />
       ))
     }

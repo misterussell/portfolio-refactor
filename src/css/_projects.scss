@@ -25,6 +25,7 @@
   .challenges {
     margin-bottom: 0;
   }
+
   .name {
     display: inline;
     position: absolute;
@@ -33,6 +34,11 @@
     left: 1.5rem;
     font-size: 2rem;
     color: $color-primary-4;
+  }
+
+  .url {
+    margin-top: 1rem;
+    font-size: 1rem;
   }
 
 }
@@ -61,6 +67,5 @@
       padding: 0 .25rem;
       list-style: none;
     }
-
   }
 }
