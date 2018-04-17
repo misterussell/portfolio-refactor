@@ -1,9 +1,11 @@
 import React from 'react';
 
+import logo from '../assets/logo.svg';
+
 const About = () => (
   <div className="about">
     <div className="logo-block">
-      <img src="src/assets/images/logo.svg" alt="logo" />
+      <img src={logo} alt="logo" />
     </div>
     <div className="bio">
       <h3 className="section-name">About Me</h3>
